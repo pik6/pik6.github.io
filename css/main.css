@@ -4,10 +4,20 @@ body{
   background-color: white;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .logo-img{
   width: 250px;
   height: 250px;
   object-fit: contain;
+}
+
+.inital{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
